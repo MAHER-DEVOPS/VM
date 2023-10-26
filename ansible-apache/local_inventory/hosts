@@ -1,0 +1,5 @@
+[apache]
+20.102.67.89 ansible_ssh_user=azureuser
+
+[php]
+20.102.67.89 ansible_ssh_user=azureuser

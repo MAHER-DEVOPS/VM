@@ -1,0 +1,9 @@
+---
+- name: Install PHP CLI
+  hosts: php
+  become: yes
+  tasks:
+    - name: install php
+      yum:
+        name: php-cli
+        state: latest
